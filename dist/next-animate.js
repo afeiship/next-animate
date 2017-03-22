@@ -1,5 +1,8 @@
 (function (nx, global) {
 
+  // add npm support:
+  nx = nx || require('next-js-core2');
+
   var time = Date.now || function() {
 		return +new Date();
 	};
