@@ -8,7 +8,7 @@
 	var running = {};
 	var counter = 1;
 
-  var Animate = nx.declare({
+  var Animate = nx.declare('nx.Animate',{
     statics:{
       requestAnimationFrame: (function() {
         // Check for request animation Frame support
